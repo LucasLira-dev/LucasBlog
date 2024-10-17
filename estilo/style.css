@@ -1,0 +1,52 @@
+@charset "UTF-8"; 
+ *{
+    margin: 0px;
+    padding: 0px;
+ }
+
+ body {
+    background-color: rgba(135, 206, 250, 0.363);
+ }
+
+ header {
+    background-color: lightskyblue;
+    text-align: center;
+    font-family: "Playfair Display", serif;
+      font-optical-sizing: auto;
+      font-weight: weight;
+      font-style: normal;
+ }
+
+ h1 {
+    color: black;
+      
+ }
+
+ span {
+    color: rgb(68, 68, 175);
+ }
+ nav ul li {
+    background-color: rgb(110, 189, 238);
+    margin-top: 5px;
+    display: inline-block;
+    font-weight: weight;
+    width: 100px;
+    height: 20px;
+
+ }
+
+ li {
+    padding: 5px;
+ }
+
+ main {
+    width: 97vw;
+    margin: auto;
+    margin: 10px 5px;
+    background-color: white;
+    line-height: 25px;
+    text-align: justify;
+    text-indent: 4px;
+ }
+
+    
