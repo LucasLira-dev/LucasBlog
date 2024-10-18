@@ -94,6 +94,7 @@
 
 
  #icon1 {
+  padding-left: 5px;
    display: inline-block;
    border-radius: 50%;
    height: 35px;
@@ -109,6 +110,7 @@
  }
 
  #icon2 {
+
    display: inline-block;
    border-radius: 50%;
    height: 35px;
