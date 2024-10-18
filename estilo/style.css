@@ -4,6 +4,11 @@
     padding: 0px;
  }
 
+ ::-webkit-scrollbar {
+   width: 0px;
+   height: 0px;
+ }
+
  body {
     background-color: rgba(135, 206, 250, 0.363);
  }
@@ -23,7 +28,7 @@
  }
 
  h1 {
-    color: lightskyblue;;
+    color: rgb(12, 148, 233);;
       
  }
 
@@ -42,10 +47,12 @@
 
  li {
     padding: 5px;
+   
  }
 
  a {
    text-decoration: none;
+   color: rgb(30, 5, 5);
  }
 
  li:hover {
@@ -77,4 +84,41 @@
    display: block;
  }
 
+ footer{
+   margin: auto;
+   width: 90vw;
+   border: 2px solid rgba(0, 0, 0, 0.208);
+   background-color: rgb(111, 208, 246);
+   box-sizing: border-box;
+ }
+
+
+ #icon1 {
+   display: inline-block;
+   border-radius: 50%;
+   height: 35px;
+   width: 30px;
+
+ }
+
+ #icon1:hover {
+   border: 2px solid rgb(13, 190, 13);
+   transform: translate(-3px, -3px);
+   box-shadow: 5px 5px 10px black;
+   transition: transform 0.5, border 1s;
+ }
+
+ #icon2 {
+   display: inline-block;
+   border-radius: 50%;
+   height: 35px;
+   width: 30px;
+ }
+
+ #icon2:hover {
+   border: 2px solid rgb(202, 41, 41);
+   transform: translate(-3px, -3px);
+   box-shadow: 5px 5px 10px black;
+   transition: transform 0.5, border 1s;
+ }
     

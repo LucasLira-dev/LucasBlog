@@ -5,6 +5,7 @@
     margin-top: 5px;
     margin: auto;
     width: 90vw;
+    position: relative;
   }
  
   img {
@@ -12,5 +13,36 @@
     width: 80vw;
   }
   
+  footer p {
+     display: none;
+  }
+    
+  #icon1 {
+    position: absolute;
+    top: 50px;
+    left: 1080px;
+    display: block;
+    width: 40px;
+    height: 40px;
+  }
+
+  #icon2 {
+    position: absolute;
+    top: 50px;
+    left: 1124px;
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+    main {
+        width: 1000px;
+    }
+
+    img {
+        width: 950px;
+        height: 600px;
+    }
     
 }
