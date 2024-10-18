@@ -1,6 +1,11 @@
 @charset "UTF-8"; 
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 767px) {
+
+  header {
+      width: 100vw;
+  }
+
   main {
     margin-top: 5px;
     margin: auto;
@@ -20,7 +25,7 @@
   #icon1 {
     position: absolute;
     top: 50px;
-    left: 1080px;
+    left: 600px;
     display: block;
     width: 40px;
     height: 40px;
@@ -29,7 +34,7 @@
   #icon2 {
     position: absolute;
     top: 50px;
-    left: 1124px;
+    left: 650px;
     width: 40px;
     height: 40px;
   }
@@ -45,4 +50,21 @@
         height: 600px;
     }
     
+
+    #icon1 {
+      position: absolute;
+      top: 50px;
+      left: 1080px;
+      display: block;
+      width: 40px;
+      height: 40px;
+    }
+  
+    #icon2 {
+      position: absolute;
+      top: 50px;
+      left: 1124px;
+      width: 40px;
+      height: 40px;
+    }
 }
