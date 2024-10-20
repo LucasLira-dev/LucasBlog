@@ -21,6 +21,7 @@
       font-optical-sizing: auto;
       font-weight: weight;
       font-style: normal;
+     
  }
 
  #titulo {
@@ -28,12 +29,13 @@
  }
 
  h1 {
-    color: rgb(12, 148, 233);;
+    color: rgb(12, 148, 233);
       
  }
 
  span {
     color: rgb(68, 68, 175);
+    font-weight: 600;
  }
  nav ul li {
     background-color: rgb(110, 189, 238);
@@ -84,15 +86,23 @@
     padding: 7px;
  }
 
+ #data {
+  background-image: linear-gradient(to right, lightskyblue, transparent);
+  color: rgb(10, 92, 65);
+  margin-top: 5px;
+  margin-bottom: 5px;
+ }
+
  img {
-   width: 97vw;
+  margin: auto;
+   width: 92vw;
    height: 400px;
    display: block;
  }
 
  footer{
    margin: auto;
-   width: 90vw;
+   width: 100vw;
    border: 2px solid rgba(0, 0, 0, 0.208);
    background-color: rgb(111, 208, 246);
    box-sizing: border-box;
@@ -100,7 +110,7 @@
 
 
  #icon1 {
-  padding-left: 5px;
+   margin-left: 5px;
    display: inline-block;
    border-radius: 50%;
    height: 35px;
@@ -131,9 +141,9 @@
 
  #copy {
   text-align: center;
-  font-family: "Playfair Display", serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-optical-sizing: auto;
-  font-weight: weight;
+  font-weight: 600;
   font-style: italic;
  }
     
