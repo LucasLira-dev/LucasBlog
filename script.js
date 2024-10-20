@@ -1,6 +1,6 @@
 function leiamais() {
     var pontos = document.getElementById("pontos");
-    var maistexto = document.getElementById("JavaScript");
+    var maistexto = document.getElementById("escondido");
     var btnleiamais = document.getElementById("btnleiamais")
 
     if(pontos.style.display === "none") {

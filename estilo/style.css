@@ -67,10 +67,13 @@
    
  }
 
- #JavaScript{
+ #escondido{
   display: none;
  }
 
+ #JavaScript {
+  margin-top: 20px;
+ }
  
 
  p {
